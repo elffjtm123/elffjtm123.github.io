@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 자기소개 사이트</title>
+        <meta charset="utf-8">
+        <style>
+            html{
+
+            }
+            body{
+                height : 10000px;
+                margin : 0;
+            }
+           #topBar{
+               position: fixed;
+
+               top:0;
+               
+               width: 100%;
+               height: 80px;
+               text-align: center;
+               background-color: skyblue;
+
+               box-shadow: 0px 0px 8px 1px gray;
+           }
+           .topList{
+               display: inline-block;
+
+               line-height: 80px;
+
+               width: 40%;
+           }
+           .left{
+               text-align: left;
+           }
+           .rigth{
+               text-align: right;
+           }
+           #title{
+               font-size: 30px;
+               font-weight: bold;
+               color:khaki;
+           }
+           #list{
+               font-size: 20px;
+               font-weight: bold;
+               color: khaki;
+           }
+           #section{
+               margin-top: 100px;
+           }
+           .contents{
+               width: 80%;
+
+               margin: 20px auto;
+               padding: 20px;
+               border-radius: 10px;
+               border: 1px solid gray;
+
+               text-align:center;
+           }
+           img{
+               width : 50%;
+           }
+           a{
+               text-decoration: none;
+           }
+        </style>
+    </head>
+    <body>
+       <div id="topBar">
+           <div class="topList left" id="title">서호영을 소개합니다!</div>
+           <div class="topList right" id="list">앙 기모띠</div>
+            <a href="#box 1">box 1</a>
+            <a href="#box 2">box 2</a>
+            <a href="#box 3">box 3</a>
+            <a href="#box 4">box 4</a>
+       </div>
+       <div id="section">
+        <div class="contents" id="box 1">
+            <h1>태 보 해</h1>
+            <h2>절 대 태 보 해</h2>
+            <p>@==(^0^)@</p>
+            <img src="https://image.fmkorea.com/files/attach/new/20180815/33854530/7547092/1213930650/7ce3dfbef452f7e254452fffaafff166.jpg">
+        </div>
+        <div class="contents" id="box 2">
+            <h1>ㄴㅇㄱ</h1>
+            <h2>상상도 못한 정체</h2>
+            <p>며용</p>
+            <img src="http://db.kookje.co.kr/news2000/photo/2018/1202/L20181202.99099000141i1.jpg">
+        </div>
+        <div class="contents" id="box 3">
+            <h1>와!</h1>
+            <h2>아시는구나!</h2>
+            <p>겁.나.어.렵.습.니.다</p>
+            <img src="data:image/png;base64,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">
+        </div>
+        <div class="contents" id="box 4">
+                <h1>And I also </h1>
+                <h2>시 공 좋 아</h2>
+                <p>당신의 시간, 매칭으로 대체되었다</p>
+                <img src="https://i.ytimg.com/vi/8GSF9Ui16k8/maxresdefault.jpg">
+            </div>
+       </div>
+       
+    </body>
+</html>
+        
